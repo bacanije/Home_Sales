@@ -24,6 +24,7 @@
 # Summary
 - What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
     For the years 2019-2022, the average four-bedroom house was sold over $200,000. In 2019 the average sat at $300,263.70, in 2020 it sold for $298,353.78, in 2021 avearge price     was $$301,819.44 and decreased in 2022 at $296,363.88
+  
 +--------------------+----------+
 |round(avg(PRICE), 2)|year(date)|
 +--------------------+----------+
@@ -32,6 +33,7 @@
 |           298353.78|      2020|
 |            300263.7|      2019|
 +--------------------+----------+
+
 - What is the average price of a home for each year the home was built, that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
 +--------------------+----------+
 |round(avg(price), 2)|date_built|
